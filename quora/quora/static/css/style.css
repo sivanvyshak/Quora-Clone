@@ -1,0 +1,71 @@
+.back {
+    background: #e2e2e2;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .div-center {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding: 1em 2em;
+    border-bottom: 2px solid #ccc;
+    display: table;
+  }
+  
+  div.content {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .navbar{
+    background-color: #2b0000;
+}
+
+#id{
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.container{
+    padding-top: 77px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:blue;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+.footer p{
+    padding-top: 10px;
+}
+
+.reaction{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.reaction form{
+    padding-right: 5px;
+    padding-bottom: 15px;
+}
+
+.btn-outline-warning{
+    color: orange;
+}
